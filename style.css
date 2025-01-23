@@ -35,5 +35,41 @@ body {
     color: #0056b3; /* Darker blue on hover */
   }
   
+/* Default styles for desktop */
+
+h1 {
+  font-size: 48px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+/* Media query for tablet devices */
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* Media query for mobile devices */
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
 
   
